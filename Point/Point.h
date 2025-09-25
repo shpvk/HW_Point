@@ -16,10 +16,10 @@ public:// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï
 	Point operator* (Point& b);
 	Point operator/ (Point& b);
 
-	Point operator++ ();
-	Point operator++ (int);
+	// Point operator++ ();
+	// Point operator++ (int);
 
-	Point operator-- ();
+	// Point operator-- ();
 	//Point operator+= ();
 
 	int GetX();

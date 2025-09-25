@@ -24,27 +24,27 @@ void Point::SetX(int x)
 	this->x = x;
 }
 
-Point Point::operator-- ()
-{
-	x--;
-	y--;
-	return *this;
-}
+// Point Point::operator-- ()
+// {
+// 	x--;
+// 	y--;
+// 	return *this;
+// }
 
-Point Point::operator++ ()
-{
-	x++;
-	y++;
-	return *this;
-}
+// Point Point::operator++ ()
+// {
+// 	x++;
+// 	y++;
+// 	return *this;
+// }
 
-Point Point::operator++ (int)
-{
-	Point temp(x,y);
-	++x;
-	++y;
-	return temp;
-}
+// Point Point::operator++ (int)
+// {
+// 	Point temp(x,y);
+// 	++x;
+// 	++y;
+// 	return temp;
+// }
 
 Point Point::operator+ (Point& b)
 {
