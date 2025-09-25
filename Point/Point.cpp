@@ -3,6 +3,27 @@
 using namespace std;
 
 
+int Point::GetX()
+{
+	return x;
+}
+
+
+int Point::GetY()
+{
+	return y;
+}
+
+void Point::SetY(int y)
+{
+	this->y = y;
+}
+
+void Point::SetX(int x)
+{
+	this->x = x;
+}
+
 Point Point::operator-- ()
 {
 	x--;

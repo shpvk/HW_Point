@@ -20,7 +20,13 @@ public:// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï
 	Point operator++ (int);
 
 	Point operator-- ();
-	Point operator+= ();
+	//Point operator+= ();
+
+	int GetX();
+	int GetY();
+
+	void SetX(int x);
+	void SetY(int y);
 
 	static int count; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 };
